@@ -8,11 +8,11 @@ the system change, that the program should be able to accomodate the new
 requirements. It should be able to be *extended* to included the new
 functionality. However, on the other side, we also want to *close* our
 software to modification, meaning that we want to craft it in
-such a way that no one should be able to (or will need to) change our
-source code when adding in new requirments. We always want to **add** to
+such a way that no one should need to change our
+source code when adding in new requirements. We always want to **add** to
 our code base, rather than changing what is already there. But, how do
 we add behavior to our software
-without modifying it? The key to be adhering to two concepts that are
+without modifying it? The key to be adhering to these two concepts that are
 seemingly at odds
 with one another is abstraction.
 
